@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to right, #611bac, #2575fc,#0f2141);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    color: #6d25bb;
+    font-weight: bold;
+}
+
+#todo-input {
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+#add-btn {
+    background-color: #6a11cb;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    
+}
+
+#add-btn:hover {
+    background-color: #2575fc;
+}
+
+.input-group .form-control:focus {
+    box-shadow: none;
+    border-color: #6a11cb;
+}
+
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    flex-wrap: wrap; 
+    word-break: break-word; 
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.btn-complete, .btn-delete {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-complete {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-complete:hover {
+    background-color: #218838;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
